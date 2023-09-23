@@ -8,9 +8,6 @@ import data from './Components/data.json'
 
 
 
-// const TestData = () => (
-//   <p>test: {data.name}</p>
-// )
 
 function App() {
   return (
