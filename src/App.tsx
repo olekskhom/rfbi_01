@@ -1,12 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Header } from './Components/Header/Header';
+import { Paragraph } from './Components/Paragraph/Paragraph';
+
+
+
+
+// const TestData = () => (
+//   <p>test: {data.name}</p>
+// )
 
 function App() {
   return (
     <div className="App">
       <h1>test</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione tenetur quod voluptates eos expedita, deleniti vero aliquam  pariatur quisquam, culpa quam? Reprehenderit provident molestias veritatis minus! Quos!</p>
+      <Header/>
+      <Paragraph />
+  
     </div>
   );
 }
