@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Header } from './Components/Header/Header';
 import { Paragraph } from './Components/Paragraph/Paragraph';
+import data from './Components/data.json'
 
 
 
@@ -17,6 +18,14 @@ function App() {
       <h1>test</h1>
       <Header/>
       <Paragraph />
+          <ul>
+          {data.map((item) => (
+            <li key={item.id}>
+              Name: {item.name}, Age: {item.age}
+            </li>
+          ))}
+        </ul>
+
   
     </div>
   );
